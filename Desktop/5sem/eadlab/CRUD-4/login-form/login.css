@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #bf70ff, #7c77ff);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container for the login form */
+.login-container {
+    background-color: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Title for the form */
+.login-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Input fields */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    outline: none;
+    background-color: #f7f7f7;
+    transition: background-color 0.3s ease;
+}
+
+/* Change background on focus for input fields */
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {
+    background-color: #e7e7e7;
+}
+
+/* Login button */
+.login-container button {
+    width: 100%;
+    padding: 15px;
+    background-color: #c977ff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.login-container button:hover {
+    background-color: #b760ff;
+}
+
+/* Forgotten password link */
+.login-container a {
+    margin-top: 10px;
+    color: #d54bed;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Change color on hover for the link */
+.login-container a:hover {
+    color: #ff6060;
+}
